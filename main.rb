@@ -1,4 +1,4 @@
-require './game'
+require './lib/game'
 
 GameOfLife.new(20, 20).start
 
