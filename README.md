@@ -26,12 +26,17 @@ In each version appear different effects what makes it striking.
 Depending on the way you want to install it, you need ruby ​​preferably in version 2.3.x onwards and if you use docker, this gem was made with docker tools but the command works with docker directly.
 </section>
 
+>In header of your file main.rb
+
+<pre><code>require 'conways_game' </code></pre> 
+
 >DOCKER 
-<pre><code>docker run --rm -it -v $(pwd):/app -w /app ruby sh -c "gem install CONWAYSGAME.gem && ruby  main.rb" </code></pre> 
+<pre><code>docker run --rm -it -v $(pwd):/app -w /app ruby sh -c "gem install conways_game.gem && ruby  main.rb" </code></pre> 
+
 $(pwd) = 
 address where you have the project 
 >USUALLY
-<pre><code>gem install CONWAYSGAME.gem 
+<pre><code>gem install conways_game.gem 
 ruby  main.rb</code></pre> 
 
 ### Some Code Description
