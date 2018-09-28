@@ -1,4 +1,4 @@
-require './lib/game'
+require 'CONWAYSGAME'
 
 GameOfLife.new(20, 20).start
 
