@@ -58,5 +58,5 @@ ruby  main.rb</code></pre>
 ```
 * This function receives the rows and columns to be in charge of analyzing the rules and drawing limits or cells depending on the conditions.
 
-<pre><code>it_Destiny_Is(row, col)</code></pre> 
+<pre><code>it_destiny_is(row, col)</code></pre> 
 
